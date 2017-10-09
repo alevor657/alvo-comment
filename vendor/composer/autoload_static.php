@@ -4,8 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8d5682c2fe0db4b489f548925f2a8548
+class ComposerStaticInit47bcc0d2b7e1dc85330fc15ea3ae9819
 {
+    public static $files = array (
+        '6b9cbd293adb7d895e163aebb2790539' => __DIR__ . '/..' . '/anax/common/src/functions.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (
@@ -18,6 +22,15 @@ class ComposerStaticInit8d5682c2fe0db4b489f548925f2a8548
         'Anax\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/..' . '/anax/database/src',
+            2 => __DIR__ . '/..' . '/anax/session/src',
+            3 => __DIR__ . '/..' . '/anax/common/src',
+            4 => __DIR__ . '/..' . '/anax/url/src',
+            5 => __DIR__ . '/..' . '/anax/configure/src',
+            6 => __DIR__ . '/..' . '/anax/di/src',
+            7 => __DIR__ . '/..' . '/anax/response/src',
+            8 => __DIR__ . '/..' . '/anax/request/src',
+            9 => __DIR__ . '/..' . '/anax/htmlform/src',
         ),
         'Alvo\\' => 
         array (
@@ -28,8 +41,8 @@ class ComposerStaticInit8d5682c2fe0db4b489f548925f2a8548
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8d5682c2fe0db4b489f548925f2a8548::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8d5682c2fe0db4b489f548925f2a8548::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit47bcc0d2b7e1dc85330fc15ea3ae9819::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit47bcc0d2b7e1dc85330fc15ea3ae9819::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

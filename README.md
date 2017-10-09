@@ -10,15 +10,27 @@ Anax comment
 [![Code Coverage](https://scrutinizer-ci.com/g/canax/comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/canax/comment/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929/mini.png)](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929)
 
-Anax comment module.
+Alvo comment module.
 
 
 
-Usage
+About
 ------------------
 
-Short examples on how to use the module comment.
+This package includes all needed parts to build a comment system using Anax.
 
+Observe that there is no style included for exception of bootstrap 4 beta.
+
+
+
+Setup
+------------------
+
+1. add route.php file
+2. add subroutes
+3. add services to di
+4. add templates
+5. add functions.php and add it to autoload
 
 
 License
