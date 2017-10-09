@@ -26,11 +26,18 @@ Observe that there is no style included for exception of bootstrap 4 beta.
 Setup
 ------------------
 
-1. add route.php file
-2. add subroutes
-3. add services to di
-4. add templates
-5. add functions.php and add it to autoload
+1. add route.php file from vendor directory to your config directory
+2. copy route2 folder from vendor to your config directory
+3. add services from vendor/alvo/comment/config/di.php to your config/di.php file
+4. add templates from view folder in vendor catalog to your view folder
+5. add config/functions.php to your config folder
+6. add following to the autoloader
+
+    "autoload": {
+        "files": [
+            "config/functions.php"
+        ]
+    }
 
 
 License
