@@ -30,12 +30,12 @@ Setup
 2. copy route2 folder from vendor to your config directory
 3. add services from vendor/alvo/comment/config/di.php to your config/di.php file
 4. add templates from view folder in vendor catalog to your view folder
-5. add config/functions.php to your config folder
+5. add src/functions.php to your src folder
 6. add following to the autoloader
 
     "autoload": {
         "files": [
-            "config/functions.php"
+            "src/functions.php"
         ]
     }
 

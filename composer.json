@@ -22,7 +22,7 @@
             "Alvo\\": "src/"
         },
         "files": [
-            "config/functions.php"
+            "src/functions.php"
         ]
     },
     "require": {
