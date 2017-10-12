@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Anax\\' => array($baseDir . '/src', $vendorDir . '/anax/database/src', $vendorDir . '/anax/session/src', $vendorDir . '/anax/common/src', $vendorDir . '/anax/url/src', $vendorDir . '/anax/configure/src', $vendorDir . '/anax/di/src', $vendorDir . '/anax/response/src', $vendorDir . '/anax/request/src', $vendorDir . '/anax/htmlform/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Anax\\' => array($baseDir . '/src', $vendorDir . '/anax/session/src', $vendorDir . '/anax/common/src', $vendorDir . '/anax/url/src', $vendorDir . '/anax/configure/src', $vendorDir . '/anax/di/src', $vendorDir . '/anax/response/src', $vendorDir . '/anax/request/src', $vendorDir . '/anax/htmlform/src', $vendorDir . '/anax/database/src', $vendorDir . '/anax/view/src', $vendorDir . '/anax/page/src', $vendorDir . '/anax/router/src', $vendorDir . '/anax/textfilter/src'),
     'Alvo\\' => array($baseDir . '/src'),
 );

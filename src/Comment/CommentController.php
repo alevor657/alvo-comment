@@ -23,10 +23,7 @@ class CommentController implements InjectionAwareInterface
         // $this->comment = new Comment();
     }
 
-    public function postItem()
-    {
 
-    }
 
     public function getIndex()
     {

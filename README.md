@@ -40,6 +40,15 @@ Setup
     }
 
 
+
+Database
+-------------------
+
+In order to get things working you need to set up a mysql database. To do that, simply run sql/sqtup.sql file.
+You also have to copy over config/database.php to your own config folder.
+
+
+
 License
 ------------------
 

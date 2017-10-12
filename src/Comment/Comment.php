@@ -65,7 +65,7 @@ class Comment extends ActiveRecordModel
         }
 
         if (!$val) {
-            throw new \Exception("CUSTOM ERR | No value provided to get a comment");
+            throw new \Exception("CUSTOM ERR | No value provided to getComment");
         }
 
         return $this->find($col, $val);
