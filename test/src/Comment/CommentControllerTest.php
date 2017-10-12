@@ -4,7 +4,6 @@ namespace Alvo\Comment;
 
 use Alvo\Comment\CommentController;
 
-
 /**
  * Test cases for Comment Controller
  */
@@ -22,6 +21,8 @@ class CommentControllerTest extends \PHPUnit_Framework_TestCase
 
         $this->comment = new CommentController();
         $this->comment->setDI(self::$di);
+        $this->comment->init();
         $this->assertInstanceOf("Alvo\Comment\CommentController", $this->comment);
+        $this->assertInstanceOf('Anax\View\ViewCollection', $this->comment->view);
     }
 }

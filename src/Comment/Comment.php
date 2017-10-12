@@ -64,7 +64,7 @@ class Comment extends ActiveRecordModel
             $col = "id";
         }
 
-        if (!$val) {
+        if (!$val && $val != 0) {
             throw new \Exception("CUSTOM ERR | No value provided to getComment");
         }
 

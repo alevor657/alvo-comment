@@ -49,6 +49,14 @@ You also have to copy over config/database.php to your own config folder.
 
 
 
+Tests
+-------------------
+
+In order to test something you need to setup a database with mysqldump.
+You can find dump file in sql/setup.sql
+
+
+
 License
 ------------------
 

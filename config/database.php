@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "dsn"              => "mysql:host=localhost;dbname=ramverk1;charset=utf8",
+    "dsn"              => "mysql:host=127.0.0.1;dbname=ramverk1;charset=utf8",
     "username"         => "root",
     "password"         => "",
     "driver_options"   => [
@@ -9,4 +9,10 @@ return [
         PDO::ATTR_ERRMODE,
         PDO::ERRMODE_EXCEPTION
     ],
+
+    // True to be very verbose during development
+    "verbose"         => null,
+
+    // True to be verbose on connection failed
+    "debug_connect"   => true,
 ];
