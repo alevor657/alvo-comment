@@ -52,8 +52,7 @@ You also have to copy over config/database.php to your own config folder.
 Tests
 -------------------
 
-In order to test something you need to setup a database with mysqldump.
-You can find dump file in sql/setup.sql
+I have my mock database on rpi up and running. So you can just user make test.
 
 
 

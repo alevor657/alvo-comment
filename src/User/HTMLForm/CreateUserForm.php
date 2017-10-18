@@ -92,6 +92,10 @@ class CreateUserForm extends FormModel
             return false;
         }
 
+        if (!$email || !$password || !$passwordAgain) {
+            return false;
+        }
+
         $user = new User();
         $user->setDb($this->di->get("db"));
         $user->email = $email;

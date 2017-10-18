@@ -89,16 +89,16 @@ return [
                 return $viewRender;
             }
         ],
-        // "session" => [
-        //     "shared" => true,
-        //     "active" => true,
-        //     "callback" => function () {
-        //         $session = new \Anax\Session\SessionConfigurable();
-        //         $session->configure("session.php");
-                // $session->start();
-        //         return $session;
-        //     }
-        // ],
+        "session" => [
+            "shared" => true,
+            "active" => true,
+            "callback" => function () {
+                $session = new \Anax\Session\SessionConfigurable();
+                $session->configure("session.php");
+                $session->start();
+                return $session;
+            }
+        ],
         "textfilter" => [
             "shared" => true,
             "callback" => "\Anax\TextFilter\TextFilter",

@@ -66,25 +66,4 @@ trait UserUtils
     {
         $this->di->get("session")->destroy();
     }
-
-
-
-    public function isAdmin()
-    {
-
-    }
-
-
-
-    public function getUser()
-    {
-
-    }
-
-
-
-    public function getAllUsers()
-    {
-
-    }
 }

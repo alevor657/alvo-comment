@@ -1,8 +1,8 @@
 <?php
 
 return [
-    "dsn"              => "mysql:host=127.0.0.1;dbname=ramverk1;charset=utf8",
-    "username"         => "root",
+    "dsn"              => "mysql:host=80.78.216.102;dbname=ramverk1;charset=utf8",
+    "username"         => "tester",
     "password"         => "",
     "driver_options"   => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'",

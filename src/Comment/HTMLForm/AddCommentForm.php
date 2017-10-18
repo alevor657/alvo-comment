@@ -78,7 +78,12 @@ class AddCommentForm extends FormModel
         $text = $this->form->value("text");
         $tags = $this->form->value("tags");
 
-        $userId = $this->di->get("user")->getUser()->id;
+        $user = $this->di->get("user")->getUser();
+        
+        if (!$user) {
+            return false;
+        }
+        $userId = $user->id;
 
         $comment = new Comment();
         $comment->setDb($this->di->get("db"));
