@@ -2,10 +2,9 @@ Anax comment
 ==================================
 
 [![Build Status](https://travis-ci.org/alevor657/alvo-comment.svg?branch=master)](https://travis-ci.org/alevor657/alvo-comment)
-[![Build Status](https://scrutinizer-ci.com/g/canax/comment/badges/build.png?b=master)](https://scrutinizer-ci.com/g/canax/comment/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/canax/comment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/canax/comment/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/canax/comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/canax/comment/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929/mini.png)](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alevor657/alvo-comment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alevor657/alvo-comment/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/alevor657/alvo-comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/alevor657/alvo-comment/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/alevor657/alvo-comment/badges/build.png?b=master)](https://scrutinizer-ci.com/g/alevor657/alvo-comment/build-status/master)
 
 Alvo comment module.
 
