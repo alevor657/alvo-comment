@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1508351332">
-  <project timestamp="1508351332">
+<coverage generated="1509151145">
+  <project timestamp="1509151145">
     <package name="Alvo\Comment">
       <file name="/home/yooo/dbwebb-kurser/ramverk1/me/comment/src/Comment/Comment.php">
         <class name="Comment" namespace="Alvo\Comment">

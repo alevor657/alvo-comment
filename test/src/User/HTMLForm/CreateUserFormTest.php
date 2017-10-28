@@ -4,8 +4,6 @@ namespace Alvo\User;
 
 use Alvo\User\HTMLForm\CreateUserForm;
 
-
-
 class CreateUserFormTest extends \PHPUnit_Framework_TestCase
 {
     public static $di;

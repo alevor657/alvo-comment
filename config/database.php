@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "dsn"              => "mysql:host=80.78.216.102;dbname=ramverk1;charset=utf8",
+    "dsn"              => "mysql:host=80.78.218.152;dbname=ramverk1;charset=utf8",
     "username"         => "tester",
     "password"         => "",
     "driver_options"   => [
